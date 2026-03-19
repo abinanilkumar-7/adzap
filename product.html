@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - ADZAP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="product-page">
+
+    <!-- Background Elements -->
+    <div class="background-container">
+        <div class="pitch-lines"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="top-nav">
+        <a href="index.html" class="back-btn glass-btn">
+            <span class="icon">⟵</span>
+            <span class="text">Back to Pitch</span>
+        </a>
+    </nav>
+
+    <main class="product-container">
+        <header class="product-header">
+            <h1 id="product-title" class="product-title glitz">Loading Product...</h1>
+        </header>
+
+        <!-- Image Viewer Container -->
+        <div class="viewer-wrapper glass-panel image-viewer-wrapper">
+            <img id="product-image" src="" alt="Product Image" class="product-image">
+            <div id="model-loader" class="model-loader">
+                <div class="spinner"></div>
+                <p>Loading Image...</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/data.js"></script>
+    <script src="js/product.js"></script>
+</body>
+</html>
